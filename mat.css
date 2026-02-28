@@ -1,0 +1,88 @@
+
+        ul{
+            padding-left: 20px;
+            margin-bottom: 5px;
+            list-style-type: lower-roman;
+            color: darkorchid;        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+            background-color: blanchedalmond;
+        }
+        ol {
+            padding-left: 40px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            color: green;
+        }
+
+        th, td {
+            border: 5px solid black;
+            padding: 20px;
+            text-align: center;
+            background-color: lightgray
+        }
+
+        th {
+            background-color: lightsteelblue;
+        }
+         h1{
+            background-color:yellow;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: blue;
+            text-align: center;
+        }
+        h2{
+            background-color:darkorange;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: blue;
+            text-align: center;
+        }
+        p
+        {
+            font-size: 20px;
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkmagenta;
+        }
+        
+        body {
+            background-color: lightblue;
+        }
+
+        
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (max-width: 500px) {
+    .flexbox-container {
+        flex-direction: column;
+    }
+}
+
+.box-common {
+    flex: 1;
+    min-width: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: orange;
+    font-size: 15px;
+    text-align: center;
+}
+
+#box1 { background-color: lightgoldenrodyellow }
+#box2 { background-color: lightgreen }
+#box3 { background-color: aqua; }
+
+        
+
+    
