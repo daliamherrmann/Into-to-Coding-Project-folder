@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Order Confirmed</h1>
+<script>
+    // Get name from URL query string
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get("name");
+    const flavor = urlParams.get("flavor");
+    const container = urlParams.get("d");
+    const toppings = urlParams.getAll("topping");
+  </script>
+    <p>Thank you, <script> document.write(name);</script>! </p>
+    <p>Flavor: <script>document.write(flavor);</script></p>
+    <p>Container: <script>document.write(container);</script></p>
+    <p>Toppings: <script> document.write(toppings.join(", "));</script></p>
+   
+
+
+
+
+</body>
+</html>

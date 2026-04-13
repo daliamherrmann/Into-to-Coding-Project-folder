@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Build your ice cream order</h1>
+    <form action="conformation.html" method="GET">
+
+  <label for="name">name:</label>
+  <input type="text" id="name" name="name" required />
+
+  
+
+  <br> 
+    <hr>
+    <label for="flavor">Choose a flavor:</label>
+  <select id="flavor" name = "flavor" required>
+    <!-- Add options here -->
+    <option selected value="vanilla">Vanilla</option>
+    <option value="chocolate">Chocolate</option>
+    <option value="strawberry">Strawberry</option>
+
+  </select>
+
+  
+
+
+  <!-- TODO: Add two radio buttons under the same name -->
+  <p>Choose a container:</p>
+  <!-- Add radio inputs here -->
+<label>
+  <input type="radio" name="d" value="cone">cone
+</label>
+
+  <label>
+    <input type="radio" name="d" value="cup"> cup
+  </label>
+  
+
+<br>
+<hr>
+
+  <!-- TODO: Add checkboxes for multiple toppings -->
+  <p>Select your toppings:</p>
+  <!-- Add checkbox inputs here -->
+    <label>
+        <input type="checkbox" name="topping" value="sprinkles"> Sprinkles
+    </label>
+    <label>
+        <input type="checkbox" name="topping" value="whipped_cream"> Cream
+    </label>
+    <label>
+        <input type="checkbox" name="topping" value="cherry"> yummy Cherry
+    </label>
+    <br>
+    <hr>
+<label for="special_instructions">Special Instructions:</label>
+  <textarea id="special_instructions" name="special_instructions"></textarea>
+<br>
+<hr>
+
+
+  <button type="submit">Submit</button>
+  
+  
+
+</form>
+
+</form>
+</body>
+</html>
